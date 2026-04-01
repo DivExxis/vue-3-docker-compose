@@ -1,6 +1,5 @@
 import { createStore } from 'vuex'
 import list from './list'
-import ball from './ball'
 import island from './island.js'
 
 const MUTATIONS = {
@@ -40,7 +39,6 @@ export default createStore({
   },
   modules: {
     list,
-    ball,
     island
   }
 })
